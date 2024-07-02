@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Manifest template to demonstrate the proper XML namespace declarations for
+SCORM 1.2 manifests. 
+
+Provided by Rustici Software - www.scorm.com.
+-->
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:btb="http://knowbe4.com/xsd/btb" identifier="com.knowbe4.courses.btb.uuid.95fad46e-58d6-4ca2-b1b7-6fa439ce727d" version="1" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd                            http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd                            http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd                            http://knowbe4.com/xsd/btb btb.xsd">
+	<metadata>
+		<schema>ADL SCORM</schema>
+		<schemaversion>1.2</schemaversion>
+		<btb:configuration>
+			<btb:builderInfo>
+				<btb:arch>amd64</btb:arch>
+				<btb:hash>2002f24f2a6671a593c1f1cb0d170a7a0536c086</btb:hash>
+				<btb:version>4.3.5</btb:version>
+				<btb:tag>v4.3.5</btb:tag>
+				<btb:timestamp>2024-04-08T16:50:11Z</btb:timestamp>
+				<btb:platform>darwin</btb:platform>
+				<btb:goVersion>go1.19</btb:goVersion>
+			</btb:builderInfo>
+			<btb:courseInfo>
+				<btb:hash>a4216f10d70fc1ab2dab851903970d062cda2e8f</btb:hash>
+				<btb:localization>en-US</btb:localization>
+				<btb:version>2.1.4-en-US</btb:version>
+				<btb:tag>v2.1.4-en-US</btb:tag>
+				<btb:timestamp>2024-05-29T21:56:26Z</btb:timestamp>
+				<btb:nodeVersion>16.16.0</btb:nodeVersion>
+				<btb:yarnVersion>1.22.22</btb:yarnVersion>
+			</btb:courseInfo>
+			<btb:debug>false</btb:debug>
+			<btb:format>scorm-1.2</btb:format>
+			<btb:passingScore>0.8</btb:passingScore>
+			<btb:playerInfo>
+				<btb:hash>52a23d153ce0e61b8765dcd1904838fcdcd0a120</btb:hash>
+				<btb:version>4.3.5</btb:version>
+				<btb:tag>4.3.5</btb:tag>
+				<btb:timestamp>2024-03-25T18:51:22Z</btb:timestamp>
+			</btb:playerInfo>
+			<btb:scormless>false</btb:scormless>
+			<btb:skipMode>video-skip</btb:skipMode>
+			<btb:themeable>true</btb:themeable>
+			<btb:title>Security Awareness Foundations</btb:title>
+			<btb:pages>
+				<btb:page>
+					<btb:file>1000_Mobile_Devices_and_Remote_Security.vue</btb:file>
+					<btb:title>Mobile and Remote Security</btb:title>
+					<btb:weight>1000</btb:weight>
+					<btb:uuid>601e407d-28be-4d0d-bd6b-df28ffcb4f49</btb:uuid>
+					<btb:mandatory>true</btb:mandatory>
+					<btb:testoutstart>false</btb:testoutstart>
+				</btb:page>
+				<btb:page>
+					<btb:file>100_Intro.vue</btb:file>
+					<btb:title>Introduction</btb:title>
+					<btb:weight>100</btb:weight>
+					<btb:uuid>1bcd6c27-607e-4bb4-a5a2-a8ac2eb68be0</btb:uuid>
+					<btb:mandatory>true</btb:mandatory>
+					<btb:testoutstart>false</btb:testoutstart>
+				</btb:page>
+				<btb:page>
+					<btb:file>1100_Physical_Security.vue</btb:file>
+					<btb:title>Physical Security</btb:title>
+					<btb:weight>1100</btb:weight>
+					<btb:uuid>b7f93514-85dc-49d8-a625-ba0607af3789</btb:uuid>
+					<btb:mandatory>true</btb:mandatory>
+					<btb:testoutstart>false</btb:testoutstart>
+				</btb:page>
+				<btb:page>
+					<btb:file>1200_Working_from_Home.vue</btb:file>
+					<btb:title>Working from Home</btb:title>
+					<btb:weight>1200</btb:weight>
+					<btb:uuid>10304191-a8ae-4e4e-8cc4-5933ad2f028a</btb:uuid>
+					<btb:mandatory>true</btb:mandatory>
+					<btb:testoutstart>false</btb:testoutstart>
+				</btb:page>
+				<btb:page>
+					<btb:file>1300_Social_Media_Infographic.vue</btb:file>
+					<btb:title>Social Media</btb:title>
+					<btb:weight>1300</btb:weight>
+					<btb:uuid>95dca834-18a7-4433-b744-7dc79a5e4e12</btb:uuid>
+					<btb:mandatory>true</btb:mandatory>
+					<btb:testoutstart>false</btb:testoutstart>
+				</btb:page>
+				<btb:page>
+					<btb:file>1350_Disinformation_Excercise.vue</btb:file>
+					<btb:title>Disinformation Exercise</btb:title>
+					<btb:weight>1350</btb:weight>
+					<btb:uuid>f385286f-2f14-448c-b16b-31bdfe1037a3</btb:uuid>
+					<btb:mandatory>false</btb:mandatory>
+					<btb:testoutstart>false</btb:testoutstart>
+				</btb:page>
+				<btb:page>
+					<btb:file>1400_Incident_Response.vue</btb:file>
+					<btb:title>Incident Response</btb:title>
+					<btb:weight>1400</btb:weight>
+					<btb:uuid>dc753bdf-ad52-4b70-a510-8e6460f3d7d9</btb:uuid>
+					<btb:mandatory>true</btb:mandatory>
+					<btb:testoutstart>false</btb:testoutstart>
+				</btb:page>
+				<btb:page>
+					<btb:file>1450_Key_Takeaways.vue</btb:file>
+					<btb:title>Key Takeaways and Recap</btb:title>
+					<btb:weight>1450</btb:weight>
+					<btb:uuid>a72a1d47-854c-463c-9204-a46672054110</btb:uuid>
+					<btb:mandatory>true</btb:mandatory>
+					<btb:testoutstart>false</btb:testoutstart>
+				</btb:page>
+				<btb:page>
+					<btb:file>1500_Wrap_Up.vue</btb:file>
+					<btb:title>Wrap Up</btb:title>
+					<btb:weight>1500</btb:weight>
+					<btb:uuid>5c50a8ea-f37e-454b-a689-050c34cb2ec1</btb:uuid>
+					<btb:mandatory>false</btb:mandatory>
+					<btb:testoutstart>false</btb:testoutstart>
+				</btb:page>
+				<btb:page>
+					<btb:file>1600_Quiz.vue</btb:file>
+					<btb:title>Quiz</btb:title>
+					<btb:weight>1600</btb:weight>
+					<btb:uuid>bff8d426-d015-4278-b731-7e334bdc3dc6</btb:uuid>
+					<btb:mandatory>true</btb:mandatory>
+					<btb:testoutstart>true</btb:testoutstart>
+				</btb:page>
+				<btb:page>
+					<btb:file>1700_FinalSlide.vue</btb:file>
+					<btb:title>Thank You!</btb:title>
+					<btb:weight>1700</btb:weight>
+					<btb:uuid>0a925d8f-3f16-45e3-820e-121f11027f1b</btb:uuid>
+					<btb:mandatory>true</btb:mandatory>
+					<btb:testoutstart>false</btb:testoutstart>
+				</btb:page>
+				<btb:page>
+					<btb:file>200_Welcome.vue</btb:file>
+					<btb:title>Welcome</btb:title>
+					<btb:weight>200</btb:weight>
+					<btb:uuid>2796fece-84ed-4f3b-af2b-b6cf4e423159</btb:uuid>
+					<btb:mandatory>true</btb:mandatory>
+					<btb:testoutstart>false</btb:testoutstart>
+				</btb:page>
+				<btb:page>
+					<btb:file>300_Whats_in_it_for_You.vue</btb:file>
+					<btb:title>What's in it for You?</btb:title>
+					<btb:weight>300</btb:weight>
+					<btb:uuid>f4f2762e-d0d2-43c2-88fc-002e58226785</btb:uuid>
+					<btb:mandatory>true</btb:mandatory>
+					<btb:testoutstart>false</btb:testoutstart>
+				</btb:page>
+				<btb:page>
+					<btb:file>400_Knowledge_Check.vue</btb:file>
+					<btb:title>Social Engineering Exercise</btb:title>
+					<btb:weight>400</btb:weight>
+					<btb:uuid>bcd81263-a656-44b5-909c-f0b69a16795a</btb:uuid>
+					<btb:mandatory>true</btb:mandatory>
+					<btb:testoutstart>false</btb:testoutstart>
+				</btb:page>
+				<btb:page>
+					<btb:file>500_Social_Engineering_in_Action.vue</btb:file>
+					<btb:title>Social Engineering in Action</btb:title>
+					<btb:weight>500</btb:weight>
+					<btb:uuid>e51b986a-294a-41c6-89d0-f2d1054704d7</btb:uuid>
+					<btb:mandatory>true</btb:mandatory>
+					<btb:testoutstart>false</btb:testoutstart>
+				</btb:page>
+				<btb:page>
+					<btb:file>550_Phishing_in_Action_Excercise.vue</btb:file>
+					<btb:title>Phishing Exercise</btb:title>
+					<btb:weight>550</btb:weight>
+					<btb:uuid>7302c948-87f4-4d78-b1a2-586175589511</btb:uuid>
+					<btb:mandatory>false</btb:mandatory>
+					<btb:testoutstart>false</btb:testoutstart>
+				</btb:page>
+				<btb:page>
+					<btb:file>600_Phishing_in_Action.vue</btb:file>
+					<btb:title>Phishing in Action</btb:title>
+					<btb:weight>600</btb:weight>
+					<btb:uuid>fce9c6bb-7285-41e7-8e40-981b04273606</btb:uuid>
+					<btb:mandatory>true</btb:mandatory>
+					<btb:testoutstart>false</btb:testoutstart>
+				</btb:page>
+				<btb:page>
+					<btb:file>700_Clicks_Happen.vue</btb:file>
+					<btb:title>Clicks Happen</btb:title>
+					<btb:weight>700</btb:weight>
+					<btb:uuid>6b3b20bf-d53f-4d5d-aa77-cd79cc63ae87</btb:uuid>
+					<btb:mandatory>true</btb:mandatory>
+					<btb:testoutstart>false</btb:testoutstart>
+				</btb:page>
+				<btb:page>
+					<btb:file>900_Strong_Password_Infographic.vue</btb:file>
+					<btb:title>Strong Passwords</btb:title>
+					<btb:weight>900</btb:weight>
+					<btb:uuid>3a9b6aca-813e-4ab9-bc1d-9c159bdfd495</btb:uuid>
+					<btb:mandatory>false</btb:mandatory>
+					<btb:testoutstart>false</btb:testoutstart>
+				</btb:page>
+			</btb:pages>
+			<btb:customTerms>
+				<btb:customTerm>
+					<btb:baseTerm>employee</btb:baseTerm>
+					<btb:terms>
+						<btb:term>employee</btb:term>
+						<btb:term>associate</btb:term>
+						<btb:term>contractor</btb:term>
+						<btb:term>contributor</btb:term>
+						<btb:term>member</btb:term>
+						<btb:term>representative</btb:term>
+						<btb:term>teammate</btb:term>
+						<btb:term>team member</btb:term>
+					</btb:terms>
+				</btb:customTerm>
+				<btb:customTerm>
+					<btb:baseTerm>employees</btb:baseTerm>
+					<btb:terms>
+						<btb:term>employees</btb:term>
+						<btb:term>associates</btb:term>
+						<btb:term>contractors</btb:term>
+						<btb:term>contributors</btb:term>
+						<btb:term>members</btb:term>
+						<btb:term>representatives</btb:term>
+						<btb:term>teammates</btb:term>
+						<btb:term>team members</btb:term>
+					</btb:terms>
+				</btb:customTerm>
+				<btb:customTerm>
+					<btb:baseTerm>it team</btb:baseTerm>
+					<btb:terms>
+						<btb:term>*IT* team</btb:term>
+						<btb:term>security team</btb:term>
+						<btb:term>security operations center</btb:term>
+						<btb:term>help desk</btb:term>
+						<btb:term>support team</btb:term>
+					</btb:terms>
+				</btb:customTerm>
+				<btb:customTerm>
+					<btb:baseTerm>organization</btb:baseTerm>
+					<btb:terms>
+						<btb:term>corporation</btb:term>
+						<btb:term>company</btb:term>
+						<btb:term>firm</btb:term>
+						<btb:term>hospital</btb:term>
+						<btb:term>organization</btb:term>
+					</btb:terms>
+				</btb:customTerm>
+				<btb:customTerm>
+					<btb:baseTerm>policies</btb:baseTerm>
+					<btb:terms>
+						<btb:term>policies</btb:term>
+						<btb:term>procedures</btb:term>
+						<btb:term>guidelines</btb:term>
+					</btb:terms>
+				</btb:customTerm>
+				<btb:customTerm>
+					<btb:baseTerm>policy</btb:baseTerm>
+					<btb:terms>
+						<btb:term>policy</btb:term>
+						<btb:term>procedure</btb:term>
+						<btb:term>guideline</btb:term>
+					</btb:terms>
+				</btb:customTerm>
+				<btb:settings>
+					<btb:term>employee</btb:term>
+					<btb:defaultOption>employee</btb:defaultOption> 
+				</btb:settings>
+				<btb:settings>
+					<btb:term>employees</btb:term>
+					<btb:defaultOption>employees</btb:defaultOption> 
+				</btb:settings>
+				<btb:settings>
+					<btb:term>it team</btb:term>
+					<btb:defaultOption>*IT* team</btb:defaultOption> 
+				</btb:settings>
+				<btb:settings>
+					<btb:term>organization</btb:term>
+					<btb:defaultOption>organization</btb:defaultOption> 
+				</btb:settings>
+				<btb:settings>
+					<btb:term>policies</btb:term>
+					<btb:defaultOption>policies</btb:defaultOption> 
+				</btb:settings>
+				<btb:settings>
+					<btb:term>policy</btb:term>
+					<btb:defaultOption>procedure</btb:defaultOption> 
+				</btb:settings>
+			</btb:customTerms>
+      <btb:activatedFeatures>
+        <btb:feature>test-out</btb:feature>
+      </btb:activatedFeatures>
+		</btb:configuration>
+	</metadata>
+	<organizations default="com.knowbe4.courses.btb.uuid.1845a979-3a03-4f89-a8cc-73e2646d023d">
+		<organization identifier="com.knowbe4.courses.btb.uuid.1845a979-3a03-4f89-a8cc-73e2646d023d">
+			<title>Security Awareness Foundations</title>
+			<item identifier="i1" identifierref="r1" isvisible="true">
+				<title>Security Awareness Foundations</title>
+				<adlcp:masteryscore>80</adlcp:masteryscore>
+			</item>
+		</organization>
+	</organizations>
+	<resources>
+		<resource identifier="r1" type="webcontent" adlcp:scormtype="sco" href="index.html">
+			<file href="index.html"/>
+		</resource>
+	</resources>
+</manifest>
