@@ -28,6 +28,6 @@
 <body>
     <h1>Download Folder</h1>
     <p>Click the button below to download the folder.</p>
-    <a href="path/to/your/folder.zip" class="download-btn" download>Download Folder</a>
+    <a href="https://jbirdbhi.github.io/Security-Training-BHI/security%20awareness%20media.zip" class="download-btn" download>Download Folder</a>
 </body>
 </html>
